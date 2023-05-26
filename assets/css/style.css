@@ -555,6 +555,13 @@ main {
   line-height: 1.6;
 }
 
+.service-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
+
 
 /**
  * #testimonials 
@@ -600,11 +607,6 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
-  display: -webkit-box;
-  line-clamp: 4;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 
@@ -752,6 +754,12 @@ main {
   width: 100%;
   filter: grayscale(1);
   transition: var(--transition-1);
+}
+.client-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
 }
 
 .clients-item img:hover { filter: grayscale(0); }
