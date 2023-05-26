@@ -511,6 +511,12 @@ main {
 /**
  * #service 
  */
+.service {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
 .service { margin-bottom: 35px; }
 
@@ -555,12 +561,6 @@ main {
   line-height: 1.6;
 }
 
-.service p {
-  color: var(--light-gray);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-  line-height: 1.6;
-}
 
 
 /**
