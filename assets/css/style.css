@@ -555,7 +555,7 @@ main {
   line-height: 1.6;
 }
 
-.service-text {
+.service-title p {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
